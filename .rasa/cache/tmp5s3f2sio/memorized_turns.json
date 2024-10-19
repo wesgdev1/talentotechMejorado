@@ -1,0 +1,11 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohP60oNTm1KD45P68EqDS/tjYWADJkIA4=": "utter_contacto",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohP60oNTm1KD45P68EqDS/loBxpSUlyKqJMC8WAASvPu0=": "action_listen",
+    "eJwtzNEJwCAMRdFVMkAncBWRIDaUgI3FxP6Iuze0/XsXDi/OtcG8Ot2Yi3GTAPMbKPmkAH9UViNxO5S6GxJjY9IAsYyuLW3A4sIC+NkxxHLHnSzXSviKtdID53sp+g==": "action_provide_course_info",
+    "eJyljcEJhUAMRFtJAVawrYiERaME9ieSzXpZ7N2gFvDB2wy8NzP2c4C+Gx2YZ2eVBP0JKPlHCd5SuDpJsK2SBUPi7Ew1wTg3qzoNwBKEJ4ixrYlnw4U8l0J4E+d/R7vpwUs4GhIhy6rfXqcLvtlXqA==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEoBqDO9NK8ksSi+JDEHKJIfX5KanFFbGwsA/T4inw==": "utter_info_talento_tech",
+    "eJyNjEEKgDAMBL+SB/iCfkUklBI1oKmkqZfSvxvQiye97S47M7Y+QDuUTozJOEuAdgeUuFOAp2xcjMS/tZD6h8WrBXByqWJR0eLmS0ajtPYPaTUjRZY5v7Hf+ukCrYBHuQ==": "action_listen"
+  }
+}

@@ -1,0 +1,38 @@
+version: "3.0"
+
+intents:
+  - greet
+  - goodbye
+  - preguntar_talento_tech
+  - preguntar_cursos
+  - preguntar_detalle_curso
+
+entities:
+  - curso
+
+slots:
+  curso:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: curso
+        intent: preguntar_detalle_curso
+
+responses:
+  utter_greet:
+    - text: "¡Hola! ¿Cómo puedo ayudarte hoy?"
+
+  utter_goodbye:
+    - text: "¡Hasta luego! Si necesitas más información, no dudes en preguntar."
+
+  utter_talento_tech:
+    - text: "Talento Tech es una plataforma educativa que ofrece cursos en tecnología y desarrollo profesional."
+
+  utter_cursos:
+    - text: "Ofrecemos los siguientes cursos: Análisis de Datos, Programación e Inteligencia Artificial."
+
+  utter_detalle_curso:
+    - text: "Aquí tienes más información sobre el curso: {curso}."
+
+actions:
+  - action_provide_course_info

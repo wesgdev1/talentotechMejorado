@@ -1,0 +1,24 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"fallback\"}}]": "utter_no_comprendido",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"fallback\"}}, {\"prev_action\": {\"action_name\": \"utter_no_comprendido\"}, \"user\": {\"intent\": \"fallback\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"entities\": [\"curso\"], \"intent\": \"preguntar_detalle_curso\"}}]": "action_provide_course_info",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"entities\": [\"curso\"], \"intent\": \"preguntar_detalle_curso\"}}, {\"prev_action\": {\"action_name\": \"action_provide_course_info\"}, \"user\": {\"entities\": [\"curso\"], \"intent\": \"preguntar_detalle_curso\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ofrecer_contacto\"}}]": "utter_contacto",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ofrecer_contacto\"}}, {\"prev_action\": {\"action_name\": \"utter_contacto\"}, \"user\": {\"intent\": \"ofrecer_contacto\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"preguntar_talento_tech\"}}]": "utter_info_talento_tech",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"preguntar_talento_tech\"}}, {\"prev_action\": {\"action_name\": \"utter_info_talento_tech\"}, \"user\": {\"intent\": \"preguntar_talento_tech\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"fallback\"}}, {\"prev_action\": {\"action_name\": \"utter_no_comprendido\"}, \"user\": {\"intent\": \"fallback\"}}]",
+      "predicting default action with intent session_start",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"fallback\"}}]",
+      "predicting default action with intent restart",
+      "predicting default action with intent back"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+*.pyd
+*.pyo
+*.pyo*
+*.whl
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.log
+*.pot
+*.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.tox/
+.pytest_cache/
+
+# Entornos virtuales (venv, pipenv)
+venv/
+.venv/
+ENV/
+env/
+.venv.bak/
+
+# Archivos de Rasa y modelos entrenados
+models/
+results/
+*.tar.gz
+
+# Datos de entrenamiento generados automáticamente
+data/
+logs/
+
+# Archivos de configuración y credenciales
+credentials.yml
+endpoints.yml
+
+# Dependencias de Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Configuración de IDEs (por ejemplo, PyCharm o VSCode)
+.idea/
+.vscode/
+*.iml
+
+# Archivos específicos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos del sistema de Twilio o tokens API que puedas usar
+twilio_auth_token.txt

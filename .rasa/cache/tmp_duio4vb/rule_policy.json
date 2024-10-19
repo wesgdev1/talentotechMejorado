@@ -1,0 +1,30 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"preguntar_detalle_curso\"}}]": "utter_detalle_curso",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"preguntar_detalle_curso\"}}, {\"prev_action\": {\"action_name\": \"utter_detalle_curso\"}, \"user\": {\"intent\": \"preguntar_detalle_curso\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"preguntar_contacto\"}}]": "utter_contact",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"preguntar_contacto\"}}, {\"prev_action\": {\"action_name\": \"utter_contact\"}, \"user\": {\"intent\": \"preguntar_contacto\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"despedirse\"}}]": "utter_goodbye",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"despedirse\"}}, {\"prev_action\": {\"action_name\": \"utter_goodbye\"}, \"user\": {\"intent\": \"despedirse\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"preguntar_cursos\"}}]": "utter_courses",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"preguntar_cursos\"}}, {\"prev_action\": {\"action_name\": \"utter_courses\"}, \"user\": {\"intent\": \"preguntar_cursos\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"saludar\"}}]": "utter_saludo",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"saludar\"}}, {\"prev_action\": {\"action_name\": \"utter_saludo\"}, \"user\": {\"intent\": \"saludar\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"preguntar_asesor\"}}]": "utter_advisor",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"preguntar_asesor\"}}, {\"prev_action\": {\"action_name\": \"utter_advisor\"}, \"user\": {\"intent\": \"preguntar_asesor\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"nlu_fallback\"}}]": "utter_advisor",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"nlu_fallback\"}}, {\"prev_action\": {\"action_name\": \"utter_advisor\"}, \"user\": {\"intent\": \"nlu_fallback\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"nlu_fallback\"}}]",
+      "predicting default action with intent restart",
+      "predicting default action with intent session_start",
+      "predicting default action with intent back",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"nlu_fallback\"}}, {\"prev_action\": {\"action_name\": \"utter_advisor\"}, \"user\": {\"intent\": \"nlu_fallback\"}}]"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"saludar\"}}]": "utter_saludo",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"saludar\"}}, {\"prev_action\": {\"action_name\": \"utter_saludo\"}, \"user\": {\"intent\": \"saludar\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"preguntar_contacto\"}}]": "utter_contacto",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"preguntar_contacto\"}}, {\"prev_action\": {\"action_name\": \"utter_contacto\"}, \"user\": {\"intent\": \"preguntar_contacto\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"fallback\"}}]": "utter_fallback",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"fallback\"}}, {\"prev_action\": {\"action_name\": \"utter_fallback\"}, \"user\": {\"intent\": \"fallback\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"preguntar_info_talento_tech\"}}]": "utter_info_talento_tech",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"preguntar_info_talento_tech\"}}, {\"prev_action\": {\"action_name\": \"utter_info_talento_tech\"}, \"user\": {\"intent\": \"preguntar_info_talento_tech\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"preguntar_cursos\"}}]": "utter_cursos",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"preguntar_cursos\"}}, {\"prev_action\": {\"action_name\": \"utter_cursos\"}, \"user\": {\"intent\": \"preguntar_cursos\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"slots\": {\"curso\": [1.0]}, \"user\": {\"entities\": [\"curso\"], \"intent\": \"preguntar_detalle_curso\"}}]": "utter_detalle_curso",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"slots\": {\"curso\": [1.0]}, \"user\": {\"entities\": [\"curso\"], \"intent\": \"preguntar_detalle_curso\"}}, {\"prev_action\": {\"action_name\": \"utter_detalle_curso\"}, \"slots\": {\"curso\": [1.0]}, \"user\": {\"entities\": [\"curso\"], \"intent\": \"preguntar_detalle_curso\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "predicting default action with intent session_start",
+      "predicting default action with intent back",
+      "predicting default action with intent restart"
+    ]
+  }
+}
