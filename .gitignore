@@ -38,6 +38,8 @@ venv/
 ENV/
 env/
 .venv.bak/
+rasa_env/
+.rasa_env/
 
 # Archivos de Rasa y modelos entrenados
 models/
